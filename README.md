@@ -1,11 +1,12 @@
 # Distributed Multi-video processing pipeline
 
-Stream and process multiple videos in near real time using Kafka. The video frames are processed and a machine learning model does inference on them and the results are stored in a mongodb database.
+- Architected and deployed a distributed pipeline for video ingestion and frame classification using ResNet50.
 
-- Designed and deployed a distributed pipeline to ingest video streams and classify frames using ResNet50
-- Persisted frame data and metadata in MongoDB with fault-tolerant, scalable architecture for efficient storage
-- Tuned Kafka producer configurations and utilized a 3-partition topic to boost reliability, parallelism, and high-throughput bulk insert performance.
+- Implemented scalable, fault-tolerant storage of frame data and metadata in MongoDB.
 
+- Optimized Kafka producers and leveraged a 3-partition topic to enhance reliability, parallelism, and high-throughput bulk inserts.
+
+- Streamed and processed multiple videos in near real-time using Kafka, performing frame-level inference with a machine learning model and storing results in MongoDB.
 
 # --- Install Dependencies ---
 ```
