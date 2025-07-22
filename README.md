@@ -1,4 +1,4 @@
-# Distributed Multi-video processing pipeline
+# Distributed Multi-video Processing Pipeline
 
 - Architected and deployed a distributed pipeline for video ingestion and frame classification using ResNet50.
 
