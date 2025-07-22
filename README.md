@@ -1,4 +1,4 @@
-# Distributed Multi-video processing pipeline with Python and Confluent Kafka
+# Distributed Multi-video processing pipeline
 
 Stream and process multiple videos in near real time using Kafka. The video frames are processed and a machine learning model does inference on them and the results are stored in a mongodb database.
 
